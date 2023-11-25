@@ -41,25 +41,17 @@ class Produk extends CI_Controller
 
     function update($id_produk)
     {
-        $this->form_validation->set_rules('edit_nama_produk', 'Nama Produk', 'required');
-        $this->form_validation->set_rules('edit_harga', 'Harga', 'required|numeric');
-        $this->form_validation->set_rules('edit_kategori', 'Kategori', 'required');
-        $this->form_validation->set_rules('edit_status', 'Status', 'required');
+        $data = array(
+            'nama_produk' => $this->input->post('edit_nama_produk'),
+            'harga' => $this->input->post('edit_harga'),
+            'kategori_id' => $this->input->post('edit_kategori'),
+            'status_id' => $this->input->post('edit_status'),
+        );
 
-        if ($this->form_validation->run() == FALSE) {
-            $this->edit($id_produk); // Jika validasi gagal, kembali ke form edit
-        } else {
-            $data = array(
-                'nama_produk' => $this->input->post('edit_nama_produk'),
-                'harga' => $this->input->post('edit_harga'),
-                'kategori_id' => $this->input->post('edit_kategori'),
-                'status_id' => $this->input->post('edit_status'),
-            );
-
-            $this->produk_model->update_produk($id_produk, $data);
-            redirect('produk'); // Redirect ke halaman produk setelah berhasil update
-        }
+        $this->produk_model->update_produk($id_produk, $data);
+        redirect('produk'); // Redirect ke halaman produk setelah berhasil update
     }
+
     // Hapus Data
     function hapus($id_produk)
     {

@@ -10,6 +10,10 @@ https://github.com/NCholisM/fastprintci3/assets/57277402/990d9f6d-8ecf-4cb3-872e
 Filter dan Tambah Data :
 
 
+https://github.com/NCholisM/fastprintci3/assets/57277402/decbe0e0-467b-403c-92fd-704aae2bdc2a
+
+
+
 
 
 

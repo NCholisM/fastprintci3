@@ -1,8 +1,10 @@
 # TES PROGRAMMER FASTPRINT
 
- Apa Saja Yang Digunakan
+Video Penjelasan
+
+Apa Saja Yang Digunakan
 - Postman
-- XAMPP (Database MuSQL)
+- XAMPP (Database MySQL)
 - CodeIgniter 3
 - Bootstrap 4
 - DataTables

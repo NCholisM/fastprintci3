@@ -1,2 +1,8 @@
-# fastprintci3
- TES PROGRAMMER FASTPRINT
+# TES PROGRAMMER FASTPRINT
+
+ Apa Saja Yang Digunakan
+	- Postman
+	- XAMPP (Database MuSQL)
+	- CodeIgniter 3
+	- Bootstrap 4
+	- DataTables

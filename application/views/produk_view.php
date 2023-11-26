@@ -21,13 +21,13 @@
             Tambah Data
         </button>
         <div class="card mt-4">
-            <div class="card-header text-center">
+            <div class="card-header text-center bg-dark text-white">
                 <h2>TES PROGRAMMER FASTPRINT</h2>
             </div>
             <div class="card-body">
 
                 <table id="tabel-data" class="table table-hover">
-                    <thead>
+                    <thead class="thead-dark">
                         <tr>
                             <th scope="col">No</th>
                             <th scope="col" width="400px" data-orderable="false">Nama Produk</th>

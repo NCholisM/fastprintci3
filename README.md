@@ -2,6 +2,7 @@
 
 ## Video Penjelasan
 Ambil data API :
+
 https://github.com/NCholisM/fastprintci3/assets/57277402/cda72a56-fa08-422d-8dee-dd11d0891eb9
 
 Database :

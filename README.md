@@ -12,11 +12,6 @@ Filter dan Tambah Data :
 
 https://github.com/NCholisM/fastprintci3/assets/57277402/decbe0e0-467b-403c-92fd-704aae2bdc2a
 
-
-
-
-
-
 ## Apa Saja Yang Digunakan
 - Postman
 - XAMPP (Database MySQL)
